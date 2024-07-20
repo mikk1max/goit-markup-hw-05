@@ -638,6 +638,10 @@ h6 {
 }
 
 .modal-field:nth-child(4) {
+  margin-bottom: 16px;
+}
+
+.modal-field:nth-child(5) {
   margin-bottom: 24px;
 }
 
