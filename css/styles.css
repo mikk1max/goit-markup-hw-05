@@ -706,6 +706,7 @@ h6 {
 .tick-field {
   border-radius: 2px;
   border: 1px solid rgba(46, 47, 66, 0.4);
+  display: inline-block;
 }
 
 .tick-label {
@@ -713,9 +714,6 @@ h6 {
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  display: flex;
-  align-items: center;
-  gap: 8px;
 }
 
 .tick-label-link {
@@ -723,6 +721,7 @@ h6 {
   text-decoration: underline;
   text-decoration-skip-ink: none;
   color: #4d5ae5;
+  margin-left: 3px;
 }
 
 .modal-tick-text {
@@ -737,6 +736,7 @@ h6 {
   justify-content: center;
   align-items: center;
   fill: transparent;
+  margin-right: 8px;
 }
 
 .tick-field:checked + .tick-label > .modal-tick-text {
