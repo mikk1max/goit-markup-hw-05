@@ -624,7 +624,6 @@ h6 {
   top: 50%;
   transform: translateY(-50%);
   pointer-events: none;
-  padding-right: 4px;
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
